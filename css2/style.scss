@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@100;400&family=Roboto:wght@100;300;400&display=swap");
+
+// font-family: 'Black Ops One', cursive;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Roboto', sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div#template {
+        width: 352px;
+        height: 736px;
+        position: absolute;
+        background-image: url("../images/phone-template.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: scale(1.15);
+    }
+
+    section.content-wrapper {
+        position: relative;
+        z-index: -1;
+        width: 352px;
+        height: 736px;
+    }
+
+    section {
+        width: 352px;
+        height: 736px;
+        position: absolute;
+        // z-index: -1;
+    }
+
+    section#page1 {
+        background: rgb(224, 223, 223);
+        // display: none;
+
+        div#content {
+            position: relative;
+            height: 150px;
+            top: -32px;
+            background-image: linear-gradient(180deg,
+                    rgb(165, 163, 203),
+                    rgb(201, 200, 214));
+                    div#top-section {
+                        position: relative;
+                        top: 16px;
+                        padding: 1.5em;
+                        width: 100%;
+                        overflow: hidden;
+                        p:nth-child(1) {
+                            font-size: 1.75em;
+                            letter-spacing: 2px;
+                          }
+                          p:nth-child(2) {
+                            font-size: 2em;
+                            text-transform: uppercase;
+                            margin-top: 0.15em;
+                          }
+                          h4 {
+                            font-weight: 800;
+                            margin-top: 0.25em;
+                          }
+
+        }
+        div#checking, div#savings {
+            position: relative;
+             top: -5px;
+            background-color: #fff;
+            height: 120px;
+            width: 90%;
+            margin: 0 auto;
+            border-radius: 1em;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+            h3 {
+                text-transform: uppercase;
+                font-weight: 800;
+                letter-spacing: 1px;
+                font-size: 1em;
+            }
+            p:nth-child(2){
+                font-size: 1.75em;
+                letter-spacing: 2px;
+            }
+            p:nth-child(3){
+                font-size: 0.75em;
+                letter-spacing: 2px;
+            }
+    }
+    #checking {
+        top: 8px;
+    }
+    div#savings {
+        top: 8px;
+    }
+    div#account{ 
+        position: relative;
+        top:2px;
+        width: 100%;   
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button {
+            position: relative;
+            z-index: 99;
+            padding: 0.75em 1.5em;
+            font-weight: 800;   
+            font-size: 1.15em;
+            border-radius: 1.35em;
+            border: 0.05px solid black;
+            background-color: transparent;
+            transition: all 200ms linear;
+            cursor:pointer;
+            pointer-events: auto;
+    }
+    button:hover {
+        color:black;
+        background-image: linear-gradient(180deg,
+        rgb(165, 163, 203),
+        rgb(201, 200, 214));;
+        // color:rgba(0,0,0,0,);
+    }
+}
+#deal {
+    
+    margin:1em 1em 0 1em;
+    p{
+        font-weight: 800;
+    }
+    img#offer {
+        width:1.2em;
+        margin-left: 1em;
+    }
+    div#deal-icons {
+        position: relative;
+        top:-90px;
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+        img{
+        width:30%;
+        }
+    }}
+   }
+    // section#page2{
+    //     background-color: blue;
+    //     display:none;
+    // }
+
+}
+div#bottom-content {
+    height:120px;
+    top: 600px;
+    width:350px;
+    background-color: white;
+    position: relative;
+    // top:-75px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0 1.5em;
+    img{
+        width:14%;
+    }
+    
+}
+ }
+////////// page 2
+ 
+div.container2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    section {
+        width: 352px;
+        height: 736px;
+        position: absolute;
+         z-index: -1;
+        img#ico {
+                position: relative;
+                left:40px;
+                top: 50px;
+                width:12%;
+                // float:left;
+                overflow: hidden;
+            }
+        div#top-section2 {
+            float:right;
+            // position: relative;
+            top: 16px;
+            padding: 2em;
+            // width: 100%;
+            overflow: hidden;
+            
+            p:nth-child(1) {
+                font-weight: 800;
+                font-size: 1em;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+              }
+              p:nth-child(2) {
+                font-size: 2em;
+                text-transform: uppercase;
+                margin-top: 0.15em;
+              }
+              h4 {
+                // font-weight: 800;
+                margin-top: 0.25em;
+              }
+            }
+    }
+    div#costs {
+        position: relative;
+        
+        top:80px;
+        padding:1em 2em;
+        border-radius: 1em;
+        height: 500px;
+        width: 90%;
+        left: 1em;
+        background-image: url("/Mobile-Banking-App/images/data table\ page2.png");
+        
+        background-color: white;
+        background-position-y: 20px;
+        background-size: 310px;
+        background-repeat: no-repeat;
+        box-shadow: 0px 3px 2px grey ;
+        #red-text {
+            position: relative;
+            top:460px;
+            left:50px;
+            white-space: nowrap;
+            font-family: 'Roboto', sans-serif;
+            color:red;
+            font-weight: bold;
+            font-size: .8em;
+            
+        }
+         
+         
+        p{
+            font-size: .5;
+            font-weight: 200;
+        }
+        h6 {
+            position: relative;
+            left:250px;
+            bottom: 10px;
+        }
+        h3 {
+            font-size: .8em;
+            font-weight: 400;
+        }
+    }
+
+    div#template {
+        width: 352px;
+        height: 736px;
+        position: absolute;
+        background-image: url("../images/phone-template.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: scale(1.15);
+    }
+
+    section.content-wrapper {
+        position: relative;
+        width: 352px;
+        height: 736px;
+    }
+
+
+
+    section#page1 {
+        background: rgb(224, 223, 223);
+
+        div#content {
+            position: relative;
+            height: 150px;
+            top: -32px;
+            background-image: linear-gradient(180deg,
+                    rgb(165, 163, 203),
+                    rgb(201, 200, 214));
+                    
+                    
+                          
+                          div#bottom-content {
+                            height:120px;
+                            width:352px;
+                            background-color: white;
+                            position: relative;
+                            top:100px;
+                            display: flex;
+                            justify-content: center;
+                            justify-content: space-between;
+                            padding: 0 1.5em;
+                          
+                            img{
+                                width:14%;
+                            }
+                            
+                        }
+                         }}
+                         section#page2{
+                             background-color: blue;
+                             display:none;
+                         }
+                     }          
+                    

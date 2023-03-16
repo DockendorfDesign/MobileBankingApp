@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@100;400&family=Roboto:wght@100;300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container div#template {
+  width: 352px;
+  height: 736px;
+  position: absolute;
+  background-image: url("../images/phone-template.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.container section.content-wrapper {
+  position: relative;
+  z-index: -1;
+  width: 352px;
+  height: 736px;
+}
+
+.container section {
+  width: 352px;
+  height: 736px;
+  position: absolute;
+}
+
+.container section#page1 {
+  background: #e0dfdf;
+}
+
+.container section#page1 div#content {
+  position: relative;
+  height: 150px;
+  top: -32px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a5a3cb), to(#c9c8d6));
+  background-image: linear-gradient(180deg, #a5a3cb, #c9c8d6);
+}
+
+.container section#page1 div#content div#top-section {
+  position: relative;
+  top: 16px;
+  padding: 1.5em;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container section#page1 div#content div#top-section p:nth-child(1) {
+  font-size: 1.75em;
+  letter-spacing: 2px;
+}
+
+.container section#page1 div#content div#top-section p:nth-child(2) {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 0.15em;
+}
+
+.container section#page1 div#content div#top-section h4 {
+  font-weight: 800;
+  margin-top: 0.25em;
+}
+
+.container section#page1 div#content div#checking, .container section#page1 div#content div#savings {
+  position: relative;
+  top: -5px;
+  background-color: #fff;
+  height: 120px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 1em;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container section#page1 div#content div#checking h3, .container section#page1 div#content div#savings h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 1em;
+}
+
+.container section#page1 div#content div#checking p:nth-child(2), .container section#page1 div#content div#savings p:nth-child(2) {
+  font-size: 1.75em;
+  letter-spacing: 2px;
+}
+
+.container section#page1 div#content div#checking p:nth-child(3), .container section#page1 div#content div#savings p:nth-child(3) {
+  font-size: 0.75em;
+  letter-spacing: 2px;
+}
+
+.container section#page1 div#content #checking {
+  top: 8px;
+}
+
+.container section#page1 div#content div#savings {
+  top: 8px;
+}
+
+.container section#page1 div#content div#account {
+  position: relative;
+  top: 2px;
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container section#page1 div#content div#account button {
+  position: relative;
+  z-index: 99;
+  padding: 0.75em 1.5em;
+  font-weight: 800;
+  font-size: 1.15em;
+  border-radius: 1.35em;
+  border: 0.05px solid black;
+  background-color: transparent;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.container section#page1 div#content div#account button:hover {
+  color: black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a5a3cb), to(#c9c8d6));
+  background-image: linear-gradient(180deg, #a5a3cb, #c9c8d6);
+}
+
+.container section#page1 div#content #deal {
+  margin: 1em 1em 0 1em;
+}
+
+.container section#page1 div#content #deal p {
+  font-weight: 800;
+}
+
+.container section#page1 div#content #deal img#offer {
+  width: 1.2em;
+  margin-left: 1em;
+}
+
+.container section#page1 div#content #deal div#deal-icons {
+  position: relative;
+  top: -90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.container section#page1 div#content #deal div#deal-icons img {
+  width: 30%;
+}
+
+.container div#bottom-content {
+  height: 120px;
+  top: 600px;
+  width: 350px;
+  background-color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1.5em;
+}
+
+.container div#bottom-content img {
+  width: 14%;
+}
+
+div.container2 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.container2 section {
+  width: 352px;
+  height: 736px;
+  position: absolute;
+  z-index: -1;
+}
+
+div.container2 section img#ico {
+  position: relative;
+  left: 40px;
+  top: 50px;
+  width: 12%;
+  overflow: hidden;
+}
+
+div.container2 section div#top-section2 {
+  float: right;
+  top: 16px;
+  padding: 2em;
+  overflow: hidden;
+}
+
+div.container2 section div#top-section2 p:nth-child(1) {
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+div.container2 section div#top-section2 p:nth-child(2) {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 0.15em;
+}
+
+div.container2 section div#top-section2 h4 {
+  margin-top: 0.25em;
+}
+
+div.container2 div#costs {
+  position: relative;
+  top: 80px;
+  padding: 1em 2em;
+  border-radius: 1em;
+  height: 500px;
+  width: 90%;
+  left: 1em;
+  background-image: url("/Mobile-Banking-App/images/data table page2.png");
+  background-color: white;
+  background-position-y: 20px;
+  background-size: 310px;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 3px 2px grey;
+          box-shadow: 0px 3px 2px grey;
+}
+
+div.container2 div#costs #red-text {
+  position: relative;
+  top: 460px;
+  left: 50px;
+  white-space: nowrap;
+  font-family: 'Roboto', sans-serif;
+  color: red;
+  font-weight: bold;
+  font-size: .8em;
+}
+
+div.container2 div#costs p {
+  font-size: .5;
+  font-weight: 200;
+}
+
+div.container2 div#costs h6 {
+  position: relative;
+  left: 250px;
+  bottom: 10px;
+}
+
+div.container2 div#costs h3 {
+  font-size: .8em;
+  font-weight: 400;
+}
+
+div.container2 div#template {
+  width: 352px;
+  height: 736px;
+  position: absolute;
+  background-image: url("../images/phone-template.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+div.container2 section.content-wrapper {
+  position: relative;
+  width: 352px;
+  height: 736px;
+}
+
+div.container2 section#page1 {
+  background: #e0dfdf;
+}
+
+div.container2 section#page1 div#content {
+  position: relative;
+  height: 150px;
+  top: -32px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a5a3cb), to(#c9c8d6));
+  background-image: linear-gradient(180deg, #a5a3cb, #c9c8d6);
+}
+
+div.container2 section#page1 div#content div#bottom-content {
+  height: 120px;
+  width: 352px;
+  background-color: white;
+  position: relative;
+  top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1.5em;
+}
+
+div.container2 section#page1 div#content div#bottom-content img {
+  width: 14%;
+}
+
+div.container2 section#page2 {
+  background-color: blue;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
